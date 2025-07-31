@@ -3,7 +3,7 @@
 An AI-driven web application built with Streamlit that enables user-friendly prediction of multiple diseases including Diabetes, Heart Disease, Parkinson’s, Lung Cancer, and Hypo‑Thyroid using trained ML models. Diagnosis is quick, intuitive, and respects user data privacy.
 
 
-🎯 Problem Statement
+## 🎯 Problem Statement
 
 Early detection of diseases significantly improves treatment outcomes. However, many users lack access to diagnostic tools or medical expertise. This project aims to:
 
@@ -13,7 +13,7 @@ Early detection of diseases significantly improves treatment outcomes. However, 
 
 * Ensure data privacy through encrypted storage and secure handling.
 
-🚀 Features
+## 🚀 Features
 
 Multiple Disease Prediction: Predicts Diabetes, Heart Disease, Parkinson’s, Lung Cancer, and Hypo‑Thyroid.
 
@@ -25,9 +25,9 @@ Multiple Disease Prediction: Predicts Diabetes, Heart Disease, Parkinson’s, Lu
 
 * Model Interpretability: Optional confidence scores or bar charts to understand feature importance.
 
-🏗️ System Architecture
+## 🏗️ System Architecture
 
-The diagram above (click to download PNG) shows:
+### The diagram above (click to download PNG) shows:
 
 * User Interface (Streamlit) → collects medical inputs.
 
@@ -55,7 +55,7 @@ The diagram above (click to download PNG) shows:
 | **Version Control**    | Git + GitHub                                     |
 
 
-🛠️ Installation & Setup
+## 🛠️ Installation & Setup
 
 
 * git clone <your‑repo‑URL>
@@ -65,9 +65,9 @@ The diagram above (click to download PNG) shows:
 * venv\Scripts\activate     # Windows
 * pip install -r requirements.txt
 
-🚀 Usage
+## 🚀 Usage
 
-streamlit run app.py
+### streamlit run app.py
 
 Once the app is running, open the browser (http://localhost:8501). Then:
 
@@ -81,7 +81,7 @@ Once the app is running, open the browser (http://localhost:8501). Then:
 
 * Optionally save your data securely.
 
-📦 Project Structure
+## 📦 Project Structure
 
 /
 ├── app.py                 # Main Streamlit application
@@ -91,7 +91,7 @@ Once the app is running, open the browser (http://localhost:8501). Then:
 ├── config.py / .env       # Storage keys or configs
 └── README.md              # This documentation
 
-📈 Performance
+## 📈 Performance
 
 * Diabetes model: Accuracy ~92%
 
@@ -104,7 +104,7 @@ Once the app is running, open the browser (http://localhost:8501). Then:
 * Optional confusion matrix or ROC curve plots for evaluation
 
 
-🔒 Privacy & Security
+## 🔒 Privacy & Security
 
 * User inputs are validated and optionally encrypted.
 
@@ -113,7 +113,7 @@ Once the app is running, open the browser (http://localhost:8501). Then:
 * Use best practices (OWASP, encrypted storage, hashed data handling).
 
 
-📅 Future Enhancements
+## 📅 Future Enhancements
 
 * 🌐 Expand datasets for better accuracy and coverage
 
@@ -125,11 +125,11 @@ Once the app is running, open the browser (http://localhost:8501). Then:
 
 * ☁️ Deploy via Streamlit Cloud or AWS with authentication layer
 
-✅ Contribution
+## ✅ Contribution
 
 Contributions are welcome—fork, improve README, UI, or add new models/features!
 
-Let me know if you’d like help adding:
+### Let me know if you’d like help adding:
 
 * Docker setup script
 
