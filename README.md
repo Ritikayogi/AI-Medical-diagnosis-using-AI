@@ -85,9 +85,9 @@ streamlit run app.py
 #### 4. Test API using Swagger or Postman
 
 Open in your browser:
-
+```
 (http://localhost:8501)
-
+```
 ---
 
 ## 🚀 Usage
@@ -108,14 +108,20 @@ Once the app is running, open the browser (http://localhost:8501). Then:
 
 ## 📦 Project Structure
 
-/
-├── app.py                 # Main Streamlit application
-├── models/                # Trained model files (.pkl, .sav)
-├── data/                  # Sample data or preprocessing notebooks
-├── requirements.txt       # Required libraries
-├── config.py / .env       # Storage keys or configs
-└── README.md              # This documentation
 
+```bash
+AI-Medical-diagnosis-using-AI/
+│
+├── app.py                      # Streamlit application
+├── requirements.txt           # Required Python packages
+├── README.md                  # Project documentation
+├── diabetes_model.sav        # Trained diabetes model
+├── heart_model.sav           # Trained heart model
+├── parkinsons_model.sav      # Trained parkinsons model
+├── thyroid_model.sav         # Trained thyroid model
+├── lung_cancer_model.sav     # Trained lung cancer model
+└── assets/                    # Images, icons, etc (optional)
+```
 ## 📈 Performance
 
 * Diabetes model: Accuracy ~92%
