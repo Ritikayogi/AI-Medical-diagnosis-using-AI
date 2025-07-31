@@ -57,13 +57,15 @@ Multiple Disease Prediction: Predicts Diabetes, Heart Disease, Parkinson’s, Lu
 
 ## 🛠️ Installation & Setup
 
+# 1️⃣ Clone the repository
+git clone https://github.com/Ritikayogi/AI-Medical-diagnosis-using-AI
+cd disease-prediction-ml
 
-* git clone <your‑repo‑URL>
-* cd disease‑prediction‑ml
-* python -m venv venv
-* source venv/bin/activate  # Linux/Mac
-* venv\Scripts\activate     # Windows
-* pip install -r requirements.txt
+# 2️⃣ Install dependencies
+pip install -r requirements.txt
+
+# 3️⃣ Run the Streamlit app
+streamlit run app.py
 
 ## 🚀 Usage
 
