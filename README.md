@@ -59,30 +59,30 @@ Multiple Disease Prediction: Predicts Diabetes, Heart Disease, Parkinson’s, Lu
 
 #### 1. Clone the Repository
 
-bash
+```bash
 git clone https://github.com/Ritikayogi/AI-Medical-diagnosis-using-AI
 cd disease-prediction-ml
-
+```
 ---
 
 
 #### 2. Install Dependencies
 
-bash
+```bash
 pip install -r requirements.txt
-
+```
 
 ---
 
 #### 3. Run the Application
 
-bash
+```bash
 streamlit run app.py
-
+```
 
 ---
 
-#### 6. Test API using Swagger or Postman
+#### 4. Test API using Swagger or Postman
 
 Open in your browser:
 
