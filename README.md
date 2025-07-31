@@ -1,6 +1,8 @@
 🏥 Disease Prediction using Machine Learning
 
 An AI-driven web application built with Streamlit that enables user-friendly prediction of multiple diseases including Diabetes, Heart Disease, Parkinson’s, Lung Cancer, and Hypo‑Thyroid using trained ML models. Diagnosis is quick, intuitive, and respects user data privacy.
+
+
 🎯 Problem Statement
 Early detection of diseases significantly improves treatment outcomes. However, many users lack access to diagnostic tools or medical expertise. This project aims to:
 
