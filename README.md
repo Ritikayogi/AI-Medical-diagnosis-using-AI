@@ -113,14 +113,14 @@ Once the app is running, open the browser (http://localhost:8501). Then:
 AI-Medical-diagnosis-using-AI/
 │
 ├── app.py                      # Streamlit application
-├── requirements.txt           # Required Python packages
-├── README.md                  # Project documentation
-├── diabetes_model.sav        # Trained diabetes model
-├── heart_model.sav           # Trained heart model
-├── parkinsons_model.sav      # Trained parkinsons model
-├── thyroid_model.sav         # Trained thyroid model
-├── lung_cancer_model.sav     # Trained lung cancer model
-└── assets/                    # Images, icons, etc (optional)
+├── requirements.txt            # Required Python packages
+├── README.md                   # Project documentation
+├── diabetes_model.sav          # Trained diabetes model
+├── heart_model.sav             # Trained heart model
+├── parkinsons_model.sav        # Trained parkinsons model
+├── thyroid_model.sav           # Trained thyroid model
+├── lung_cancer_model.sav       # Trained lung cancer model
+└── assets/                     # Images, icons, etc (optional)
 ```
 ## 📈 Performance
 
@@ -160,7 +160,7 @@ AI-Medical-diagnosis-using-AI/
 
 Contributions are welcome—fork, improve README, UI, or add new models/features!
 
-### Let me know if you’d like help adding:
+#### Let me know if you’d like help adding:
 
 * Docker setup script
 
